@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="todo.css">
+    <title>To-Do list</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid mb-0">
+        <div class="container">
+            <h1 class="display-4">My To-Do List</h1>
+            <p>Press Enter for full-screen mode - Browser API</p>
+            <input type="text" id="task" class="form-control mb-4 mt-3" placeholder="Write tasks here...">
+            <span class="addBtn btn btn-primary btn-lg">Add Task</span>
+        </div>
+    </div>
+
+    <ul id="myTasks" class="m-0 p-0">
+    </ul>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-info text-white mt-5 p-4">
+                    <h1>Number Certitude - Third Party API</h1>
+                    <p>Enter a number and get a random fact</p>
+                    <input type="number" class="form-control form-control-lg" id="numberInput"
+                        placeholder="Enter any number...">
+                    <div id="fact" class="card-body">
+                        <h4 class="card-title">
+                            Certitude
+                        </h4>
+                        <p id="factText" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap scripts and API plugins -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>
